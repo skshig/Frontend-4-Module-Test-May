@@ -30,7 +30,9 @@ const HomePage = () => {
                         <div className="items" key={post.id} onClick={() => {
                             handleCardDetails(post)
                         }}>
-                            <img id="imgs" src={`https://picsum.photos/200?random=${post.id}`} alt={post.title} />
+                            <img id="imgs" src={`https://picsum.photos/100?random=${post.id}`} alt={post.title} />
+                            {/* <img id="imgs" src={`https://unsplash.com/photos/iia8_SU0DVk=${post.id}`} alt={post.title} /> */}
+                            {/* https://unsplash.com/photos/iia8_SU0DVk */}
                             <div className="texts">
                                 <p>User ID: {post.userId}</p>
                                 <p>Title: {post.title.slice(0, 10)}</p>
