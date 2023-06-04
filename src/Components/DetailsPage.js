@@ -8,9 +8,9 @@ const DetailsPage = () => {
 
   return (
     <>
-      <h2>Details Page For Post With ID {post.id}</h2>
+      <h3>Post id details: {post.id}</h3>
 
-      <div className="item" >
+      <div className="image" >
         <img id='img' src={`https://picsum.photos/200?random=${post.id}`} alt={post.title} />
         <h3>User ID: {post.userId}</h3>
         <h3>Title: {post.title}</h3>

@@ -34,9 +34,9 @@ const HomePage = () => {
                             {/* <img id="imgs" src={`https://unsplash.com/photos/iia8_SU0DVk=${post.id}`} alt={post.title} /> */}
                             {/* https://unsplash.com/photos/iia8_SU0DVk */}
                             <div className="texts">
-                                <p>User ID: {post.userId}</p>
-                                <p>Title: {post.title.slice(0, 10)}</p>
-                                <p>Body: {post.body.slice(0, 50)}</p>
+                                <p>userId: {post.userId}</p>
+                                <p>title: {post.title.slice(0, 10)}</p>
+                                <p>body: {post.body.slice(0, 50)}</p>
                                 <p>Read More...</p>
                             </div>
 
